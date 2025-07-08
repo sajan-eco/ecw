@@ -17392,3 +17392,8 @@ span.select2-selection.select2-selection--single:focus {
   height: 400px;
   }
 }
+
+.main-menu a.active {
+  color: var(--theme-color) !important;
+  font-weight: 800;
+}

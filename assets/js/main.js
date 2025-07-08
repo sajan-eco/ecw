@@ -863,13 +863,21 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-card.style.display = "block";
-card.style.opacity = 0;
-setTimeout(() => {
-  card.style.opacity = 1;
-}, 50);
 
+// Get current page URL path
+  const currentPage = window.location.pathname.split("/").pop();
 
+  // Select all navigation links
+  const navLinks = document.querySelectorAll(".main-menu a");
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    // If current page matches the link's href, add 'active' class
+    if (linkPage === currentPage) {
+      link.classList.add("active");
+    }
+  });
 
 
 
