@@ -1,0 +1,359 @@
+<!-- 
+  SCHEMA MARKUP EXAMPLES FOR ECO CLEANSER WEBSITE
+  Add these JSON-LD scripts to the respective pages in the <head> section
+-->
+
+<!-- ========================================
+     1. ORGANIZATION SCHEMA (For index.html)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Eco Cleanser",
+  "alternateName": "Eco-Cleanser",
+  "url": "https://ecocleanser.in",
+  "logo": "https://ecocleanser.in/assets/img/ec-logo.png",
+  "description": "Eco Cleanser is a pet wellness brand devoted to clean, green, and gentle care. We create eco-friendly grooming products that are safe for pets, kind to the planet, and made with love.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kerala",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-6282398780",
+    "contactType": "Customer Service",
+    "email": "greenmedibiotech1@gmail.com",
+    "availableLanguage": ["English", "Hindi"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/ecocleanser",
+    "https://www.instagram.com/ecocleanserofficial",
+    "https://wa.me/+916282398780"
+  ],
+  "foundingDate": "2002",
+  "founder": {
+    "@type": "Organization",
+    "name": "Green Medi Biotech"
+  }
+}
+</script>
+
+<!-- ========================================
+     2. WEBSITE SCHEMA (For index.html)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Eco Cleanser",
+  "url": "https://ecocleanser.in",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ecocleanser.in/products.html?search={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- ========================================
+     3. PRODUCT SCHEMA (For soap.html)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Eco Cleanser Pet Soap",
+  "image": "https://ecocleanser.in/assets/img/product/ec-soap.png",
+  "description": "Eco Cleanser Pet Soap is the natural choice for gentle, eco-friendly grooming. Formulated with Aloe Vera and Vitamin E, this soap nourishes and cleanses your pet's coat while ensuring their skin remains soft, hydrated, and healthy.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Eco Cleanser"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Eco Cleanser"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://ecocleanser.in/soap.html",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Eco Cleanser"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "156"
+  },
+  "category": "Pet Care Products",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredients",
+      "value": "Aloe Vera, Vitamin E, Natural Oils"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Type",
+      "value": "Chemical-Free, Eco-Friendly"
+    }
+  ]
+}
+</script>
+
+<!-- ========================================
+     4. PRODUCT SCHEMA (For shampo.html)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Eco Cleanser Pet Shampoo",
+  "image": "https://ecocleanser.in/assets/img/product/ec-shampo.png",
+  "description": "Made with coconut oil, lavender extract, and apple cider vinegar, this shampoo deeply cleanses while moisturizing your pet's skin. Perfect for regular use, even for pets prone to allergies.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Eco Cleanser"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Eco Cleanser"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://ecocleanser.in/shampo.html",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Eco Cleanser"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "203"
+  },
+  "category": "Pet Grooming Products"
+}
+</script>
+
+<!-- ========================================
+     5. PRODUCT SCHEMA (For kennal-wash.html)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Eco Cleanser Kennel Wash",
+  "image": "https://ecocleanser.in/assets/img/product/kennal-all-2.png",
+  "description": "Eco Cleanser Kennel Wash is an all-purpose surface disinfectant designed to eliminate odors and germs from pet crates, bedding, floors, and play areas. Infused with lemon, eucalyptus, and tea tree oils.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Eco Cleanser"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Eco Cleanser"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://ecocleanser.in/kennal-wash.html",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Eco Cleanser"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "142"
+  },
+  "category": "Pet Hygiene Products"
+}
+</script>
+
+<!-- ========================================
+     6. ARTICLE SCHEMA (For Blog Posts)
+     Example: How-to-Choose-the-Right-Shampoo-for-Your-Pet.html
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Choose the Right Shampoo for Your Pet",
+  "image": "https://ecocleanser.in/assets/img/blog/blog-1.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Eco Cleanser"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Eco Cleanser",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ecocleanser.in/assets/img/ec-logo.png"
+    }
+  },
+  "datePublished": "2025-06-05",
+  "dateModified": "2025-06-05",
+  "description": "A comprehensive guide to choosing the right shampoo for your pet based on their breed, skin type, and specific needs.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ecocleanser.in/How-to-Choose-the-Right-Shampoo-for-Your-Pet.html"
+  }
+}
+</script>
+
+<!-- ========================================
+     7. BREADCRUMB SCHEMA (For all pages)
+     Example for Products Page
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://ecocleanser.in/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Products",
+      "item": "https://ecocleanser.in/products.html"
+    }
+  ]
+}
+</script>
+
+<!-- ========================================
+     8. LOCAL BUSINESS SCHEMA (For about.html or contact page)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Eco Cleanser",
+  "image": "https://ecocleanser.in/assets/img/ec-logo.png",
+  "@id": "https://ecocleanser.in",
+  "url": "https://ecocleanser.in",
+  "telephone": "+91-6282398780",
+  "email": "greenmedibiotech1@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kerala",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 10.8505,
+    "longitude": 76.2711
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/ecocleanser",
+    "https://www.instagram.com/ecocleanserofficial"
+  ]
+}
+</script>
+
+<!-- ========================================
+     9. FAQ SCHEMA (Add to relevant pages)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are Eco Cleanser products safe for all pets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all Eco Cleanser products are formulated with 100% natural ingredients and are safe for dogs, cats, and other pets. Our products are vet-approved and dermatologically tested."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I bathe my pet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The frequency depends on your pet's breed, lifestyle, and skin condition. Generally, dogs can be bathed every 4-6 weeks, while cats typically require less frequent bathing. Always use gentle, natural products like Eco Cleanser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your products eco-friendly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! All Eco Cleanser products are made with biodegradable ingredients and eco-friendly packaging. We're committed to protecting both your pets and the planet."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ========================================
+     10. REVIEW SCHEMA (For product pages with reviews)
+     ======================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Eco Cleanser Pet Soap"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Priya Sharma"
+  },
+  "reviewBody": "Best natural pet soap I've used! My dog's coat is so soft and shiny now. Love that it's chemical-free and eco-friendly."
+}
+</script>
+
+<!-- 
+  IMPLEMENTATION INSTRUCTIONS:
+  
+  1. Copy the relevant schema markup for each page
+  2. Paste it in the <head> section, before the closing </head> tag
+  3. Update the values (ratings, reviews, dates) with actual data
+  4. Test using Google's Rich Results Test: https://search.google.com/test/rich-results
+  5. Validate using Schema.org validator: https://validator.schema.org/
+  
+  PRIORITY ORDER:
+  1. Organization Schema (index.html) - HIGH
+  2. Product Schema (all product pages) - HIGH
+  3. Article Schema (all blog posts) - MEDIUM
+  4. Breadcrumb Schema (all pages) - MEDIUM
+  5. FAQ Schema (relevant pages) - LOW
+  6. Review Schema (product pages) - LOW
+-->

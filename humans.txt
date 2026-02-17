@@ -1,0 +1,28 @@
+/* TEAM */
+Website: Eco Cleanser
+Location: Kerala, India
+Contact: greenmedibiotech1@gmail.com
+Phone: +91 6282398780
+
+/* SITE */
+Last update: 2026/02/17
+Standards: HTML5, CSS3, JavaScript
+Components: Bootstrap, Swiper.js, AOS Animation
+Software: VS Code, Git
+Language: English
+
+/* THANKS */
+Pet Parents: For trusting us with your furry friends
+Nature: For providing pure, natural ingredients
+Community: For supporting eco-friendly choices
+
+/* CREDITS */
+Design & Development: PRception (https://prception.in)
+Fonts: Google Fonts (Akshar, DM Sans, Shadows Into Light Two)
+Icons: Font Awesome
+Images: Custom photography & illustrations
+
+/* VALUES */
+Mission: Clean, green, and gentle pet care
+Vision: Toxin-free care for every pet
+Commitment: 100% Natural, Eco-friendly, Vet-approved

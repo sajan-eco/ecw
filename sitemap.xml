@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Home Page -->
+    <url>
+        <loc>https://ecocleanser.in/</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Us Page -->
+    <url>
+        <loc>https://ecocleanser.in/about.html</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Products Page -->
+    <url>
+        <loc>https://ecocleanser.in/products.html</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Blogs Page -->
+    <url>
+        <loc>https://ecocleanser.in/blogs.html</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Product Detail Pages -->
+    <url>
+        <loc>https://ecocleanser.in/soap.html</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://ecocleanser.in/shampo.html</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://ecocleanser.in/kennal-wash.html</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog Articles -->
+    <url>
+        <loc>https://ecocleanser.in/How-to-Choose-the-Right-Shampoo-for-Your-Pet.html</loc>
+        <lastmod>2025-06-05</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://ecocleanser.in/Top-Tips-for-Keeping-Your-Pet-Happy-and-Healthy-at-Home.html</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://ecocleanser.in/Why-Regular-Baths-Are-Important-for-Pets.html</loc>
+        <lastmod>2025-05-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>

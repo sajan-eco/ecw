@@ -1,0 +1,15 @@
+# Eco Cleanser - Robots.txt
+# Website: https://ecocleanser.in
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any)
+Disallow: /assets/
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://ecocleanser.in/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1
